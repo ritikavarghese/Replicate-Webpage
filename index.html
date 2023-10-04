@@ -12,7 +12,7 @@
 
     }
 
-    button{
+    #day{
         text-align:center;
         padding: 10px 0;
         border-radius: 10px;
@@ -21,11 +21,13 @@
             border-bottom-right-radius: 10px;
             border-bottom-left-radius: 10px;
         width: 400px;
+        height: 100px;
         background-color:#fff;
         border: 1px solid #ffffff;
     }
-    button:hover{
+    #day:hover{
         background-color:#fffbef;
+
     }
     #temp{
         font-family: monospace;
@@ -66,9 +68,8 @@
     <header id="color"><Center>13° / <strong>23°</strong></Center></header>
     <br>
     <br>
-    <br>
     <body>
-        <center><button>
+        <center><button id="day">
             <center id="Tomorrow">
             <strong>🌧Tomorrow</strong><br> <br> 
             <span id="temp">10° / <strong>22°</strong></span></center></button>
@@ -77,21 +78,16 @@
         
     <br>
     <br>
-    <br>
-        <center><button><center id="Tomorrow">
+        <center><button id="day"><center id="Tomorrow">
             <strong>🌥 Saturday</strong><br> <br> 
             <span id="temp">15° /    <strong>17°</strong></span>
         </center></button></center>
     <br>
     <br>
-    <br>
-        <center><button><center id="Tomorrow">
+        <center><button id="day"><center id="Tomorrow">
             <strong>☀️ Sunday</strong><br> <br> 
             <span id="temp">25° / <strong>28°</strong></span>
         </center></button></center>
-    <br>
-    <br>
-    <br>
         <center>
             <button id="city">
                 Change City
